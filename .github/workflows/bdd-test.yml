@@ -25,5 +25,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install
 
+      - name: Make cucumber-js executable
+        run: chmod +x node_modules/.bin/cucumber-js
+
       - name: Run BDD Tests
         run: npm test
