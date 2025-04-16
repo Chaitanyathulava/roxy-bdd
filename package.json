@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js"
+
   },
   "keywords": [],
   "author": "",
